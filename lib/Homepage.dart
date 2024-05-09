@@ -4,10 +4,7 @@ import 'package:intl/intl.dart';
 import 'package:todo_list/shared/cupit/cupit.dart';
 import 'package:todo_list/shared/cupit/states.dart';
 import 'package:sqflite/sqflite.dart';
-
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-
 class Homepage extends StatelessWidget {
   var scaffoldKey = GlobalKey<ScaffoldState>();
   var formKey = GlobalKey<FormState>();
